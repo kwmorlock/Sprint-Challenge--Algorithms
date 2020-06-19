@@ -2,10 +2,14 @@
 
 ## Exercise I
 
-a) O(n) When input increases the runtime will increase at the same rate, not a bad solution compared to some other Big O run times. 
+a) O(n) When input increases the runtime will increase at the same rate, not a bad solution compared to some other Big O run times. (In big O notation ignores the plus)
 
 
 b) O(n^2) Not a good run time, because of nested loops that all rely on n. 
+(redo)
+
+new response O(n log n) This is a usable solution that isnt ideal, as the input grows, the runtime
+grows at only a slightly faster rate, this is often seen with mergesort
 
 
 c) O(n) This is a recursive function that runs linear.
@@ -22,7 +26,7 @@ n[:x] = nonbreak_floor
 
 Logarithmic O(log n)
 
-As imput gets bigger runtime/space will increase slower (This is a good solution compared to many other Big O solutions)
+As input gets bigger runtime/space will increase slower (This is a good solution compared to many other Big O solutions)
 
 
 
