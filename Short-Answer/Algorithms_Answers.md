@@ -2,13 +2,13 @@
 
 ## Exercise I
 
-a)
+a) O(n) When input increases the runtime will increase at the same rate, not a bad solution compared to some other Big O run times. 
 
 
-b)
+b) O(n^2) Not a good run time, because of nested loops that all rely on n. 
 
 
-c)
+c) O(n) This is a recursive function that runs linear.
 
 ## Exercise II
 
