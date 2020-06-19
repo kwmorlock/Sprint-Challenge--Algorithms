@@ -7,4 +7,16 @@ def count_th(word):
     
     # TBC
     
-    pass
+    # pass
+    words = word.find('th')
+    if words >= 0:
+        return 1 + count_th(word[words +2:]) 
+
+    else:
+        return 0
+
+# str = ""
+# str = "thhmmmthhmmth"
+str = "thhmmmthhmmththhmmmthhmmththhmmmthhmmth"
+
+print(count_th(str))
